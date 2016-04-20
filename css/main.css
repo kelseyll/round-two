@@ -1,0 +1,45 @@
+body {
+    font-family: DomaineDisplay-Semibold;
+}
+
+.outer-container {
+    width: 100%;
+}
+
+.malovich {
+    position: absolute;
+    top: 17vh;
+    right: 43%;
+    left: 40%;
+    width: 30%;
+    height: 500px;
+    background-color: #fff;
+    border: 3px solid #000;
+}
+
+.grey-rectangle {
+    position: absolute;
+    top: 25vh;
+    right: 35%;
+    left: 32%;
+    width: 30%;
+    height: 500px;
+    background-color: #eee;
+}
+
+h1 {
+    position: absolute;
+    font-size: 58px;
+    top: 30vh;
+    left: 30%;
+    max-width: 400px;
+}
+
+p {
+    position: absolute;
+    top: 55vh;
+    left: 38%;
+    font-family: 'Inconsolata';
+    max-width: 400px;
+    line-height: 2;
+}
