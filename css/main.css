@@ -2,8 +2,24 @@ body {
     font-family: DomaineDisplay-Semibold;
 }
 
+.flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .outer-container {
     width: 100%;
+    min-height: 100vh;
 }
 
 .malovich {
@@ -11,8 +27,8 @@ body {
     top: 17vh;
     right: 43%;
     left: 40%;
-    width: 30%;
-    height: 500px;
+    width: 34%;
+    height: 400px;
     background-color: #fff;
     border: 3px solid #000;
 }
@@ -22,24 +38,51 @@ body {
     top: 25vh;
     right: 35%;
     left: 32%;
-    width: 30%;
-    height: 500px;
+    width: 28%;
+    height: 425px;
     background-color: #eee;
 }
 
+.hero-container {
+    max-width: 600px;
+}
+
 h1 {
-    position: absolute;
-    font-size: 58px;
-    top: 30vh;
-    left: 30%;
-    max-width: 400px;
+    font-size: 48px;
+    max-width: 600px;
+    padding-left: 20px;
 }
 
 p {
-    position: absolute;
-    top: 55vh;
-    left: 38%;
+    font-size: 15px;
     font-family: 'Inconsolata';
-    max-width: 400px;
     line-height: 2;
+    padding-left: 20%;
+    max-width: 400px;
+}
+
+h1,
+p {
+    position: relative;
+}
+
+.lines {
+    position: absolute;
+    width: 300px;
+    top: 10vh;
+    left: 30%;
+    overflow: hidden;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    background-color: #000;
+}
+
+.line-1 {
+    position: relative;
+    top: 3px;
+    height: 1px;
+    background-color: #000;
 }
