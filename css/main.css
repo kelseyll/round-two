@@ -25,12 +25,11 @@ body {
 .malovich {
     position: absolute;
     top: 15vh;
-    right: 43%;
     left: 40%;
-    width: 30%;
-    height: 400px;
+    width: 381px;
+    height: 484px;
     background-color: #fff;
-    border: 3px solid #000;
+    border: 1px solid #000;
 }
 
 .grey-rectangle {
@@ -38,9 +37,9 @@ body {
     top: 25vh;
     right: 35%;
     left: 32%;
-    width: 28%;
-    height: 425px;
-    background-color: #eee;
+    width: 378px;
+    height: 484px;
+    background-color: FFE9CD;
 }
 
 .hero-container {
@@ -48,17 +47,17 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     max-width: 600px;
-    padding-left: 10px;
     padding-top: 10%;
 }
 
 p {
+    background-color: #fff;
     font-size: 15px;
     font-family: 'Inconsolata';
     line-height: 2;
-    padding-left: 12%;
+    padding-left: 30px;
     max-width: 450px;
 }
 
@@ -69,21 +68,13 @@ p {
 
 .lines {
     position: absolute;
-    width: 300px;
-    top: 10vh;
-    left: 30%;
-    overflow: hidden;
+    top: 28vh;
+    left: 45%;
 }
 
-.line {
-    position: relative;
-    height: 1px;
-    background-color: #000;
-}
-
-.line-1 {
-    position: relative;
-    top: 3px;
-    height: 1px;
-    background-color: #000;
+.more-lines {
+    opacity: 0.5;
+    position: absolute;
+    top: 18vh;
+    left: 35%;
 }
