@@ -1,5 +1,5 @@
 body {
-    font-family: DomaineDisplay-Semibold;
+    font-family: "DomaineDisplay-Semibold";
 }
 
 .flex-center {
@@ -24,23 +24,22 @@ body {
 
 .malovich {
     position: absolute;
-    top: 20vh;
+    top: 22vh;
     left: 35%;
     width: 360px;
     height: 460px;
-    background-color: #fff;
     border: 1px solid #000;
 }
 
-/*.grey-rectangle {
+.grey-rectangle {
     position: absolute;
     top: 25vh;
     right: 35%;
-    left: 32%;
+    left: 30%;
     width: 378px;
     height: 484px;
     background-color: FFE9CD;
-}*/
+}
 
 .hero-container {
     max-width: 800px;
@@ -54,12 +53,14 @@ h1 {
 }
 
 p {
-    background-color: #fff;
+    background-color: #FFF;
+    padding: 10px 20px 10px 0;
     font-size: 15px;
     font-family: 'Inconsolata';
     line-height: 2;
     margin-left: 140px;
     max-width: 450px;
+
 }
 
 h1,
@@ -69,12 +70,12 @@ p {
 
 .lines {
     position: absolute;
-    top: 35vh;
-    left: 37%;
+    top: 29vh;
+    left: 43%;
 }
 
 .more-lines {
     position: absolute;
-    top: 22vh;
-    left: 28%;
+    top: 17vh;
+    left: 29%;
 }
